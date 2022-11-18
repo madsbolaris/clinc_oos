@@ -180,15 +180,15 @@ dataset_info:
           149: travel_suggestion
           150: change_volume
   splits:
-  - name: test
-    num_bytes: 286970
-    num_examples: 5500
   - name: train
     num_bytes: 394128
     num_examples: 7600
   - name: validation
     num_bytes: 160302
     num_examples: 3100
+  - name: test
+    num_bytes: 286970
+    num_examples: 5500
   download_size: 1702451
   dataset_size: 841400
 - config_name: imbalanced
@@ -351,15 +351,15 @@ dataset_info:
           149: travel_suggestion
           150: change_volume
   splits:
-  - name: test
-    num_bytes: 286970
-    num_examples: 5500
   - name: train
     num_bytes: 546909
     num_examples: 10625
   - name: validation
     num_bytes: 160302
     num_examples: 3100
+  - name: test
+    num_bytes: 286970
+    num_examples: 5500
   download_size: 2016773
   dataset_size: 994181
 - config_name: plus
@@ -522,15 +522,15 @@ dataset_info:
           149: travel_suggestion
           150: change_volume
   splits:
-  - name: test
-    num_bytes: 286970
-    num_examples: 5500
   - name: train
     num_bytes: 791255
     num_examples: 15250
   - name: validation
     num_bytes: 160302
     num_examples: 3100
+  - name: test
+    num_bytes: 286970
+    num_examples: 5500
   download_size: 2509789
   dataset_size: 1238527
 ---
