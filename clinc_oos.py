@@ -55,10 +55,14 @@ _DESCRIPTIONS = {
 
 _URL = "https://github.com/clinc/oos-eval/"
 
+# Source:
+# - https://raw.githubusercontent.com/clinc/oos-eval/master/data/data_small.json
+# - https://raw.githubusercontent.com/clinc/oos-eval/master/data/data_imbalanced.json
+# - https://raw.githubusercontent.com/clinc/oos-eval/master/data/data_oos_plus.json
 _DATA_URLS = {
-    "small": "https://raw.githubusercontent.com/clinc/oos-eval/master/data/data_small.json",
-    "imbalanced": "https://raw.githubusercontent.com/clinc/oos-eval/master/data/data_imbalanced.json",
-    "plus": "https://raw.githubusercontent.com/clinc/oos-eval/master/data/data_oos_plus.json",
+    "small": "data/data_small.json.gz",
+    "imbalanced": "data/data_imbalanced.json.gz",
+    "plus": "data/data_oos_plus.json.gz",
 }
 
 
