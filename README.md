@@ -189,7 +189,7 @@ dataset_info:
   - name: test
     num_bytes: 286966
     num_examples: 5500
-  download_size: 246833
+  download_size: 441918
   dataset_size: 994165
 - config_name: plus
   features:
@@ -360,7 +360,7 @@ dataset_info:
   - name: test
     num_bytes: 286966
     num_examples: 5500
-  download_size: 291179
+  download_size: 525729
   dataset_size: 1238511
 - config_name: small
   features:
@@ -531,8 +531,33 @@ dataset_info:
   - name: test
     num_bytes: 286966
     num_examples: 5500
-  download_size: 216522
+  download_size: 385185
   dataset_size: 841388
+configs:
+- config_name: imbalanced
+  data_files:
+  - split: train
+    path: imbalanced/train-*
+  - split: validation
+    path: imbalanced/validation-*
+  - split: test
+    path: imbalanced/test-*
+- config_name: plus
+  data_files:
+  - split: train
+    path: plus/train-*
+  - split: validation
+    path: plus/validation-*
+  - split: test
+    path: plus/test-*
+- config_name: small
+  data_files:
+  - split: train
+    path: small/train-*
+  - split: validation
+    path: small/validation-*
+  - split: test
+    path: small/test-*
 ---
 
 # Dataset Card for CLINC150
